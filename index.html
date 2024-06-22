@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="images">
+            <div class="imgcontainer">
+                <div class="logo-content">
+                    <div class="logo">
+                        <img src="./images/odin-lined.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        ODIN
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="hero">
+                <div class="heroText">Purrfect!</div>
+                <div class="subText">The perfect place to share and rate feline friends!</div>
+            </div>
+            <form method="post">
+                <div class="formContainer">
+                    <p><b>Let's do this!</b></p>
+                        <div class="formcontent">
+                            <div class="row">
+                                <div class="field">
+                                    <label for="first_name">FIRST NAME</label>
+                                    <input type="text" id="first_name" name="first-name" required>
+                                </div>
+                                <div class="field">
+                                    <label for="last_name">LAST NAME</label>
+                                    <input type="text" id="last_name" name="last-name" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    <label for="mail">EMAIL</label>
+                                    <input type="email" id="mail" name="email" required>
+                                </div>
+                                <div class="field">
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input type="text" id="phone" name="phone-number">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" name="password" minlength="3" required>
+                                </div>
+                                <div class="field">
+                                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                                    <input type="password" id="confirm_password" name="confirm_password" minlength="3" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="account">
+                    <button type="submit"><span>Create Account</span></button>
+                    <div class="login">Already have an account? <a>Log in</a></div>
+                    <div class="cat-gif"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

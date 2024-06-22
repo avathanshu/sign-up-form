@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "odin font";
+    src: url('./images/Norse-Bold.otf');
+}
+
+.dancing-script-cat {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #251c3c;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.images {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    background-position: left;
+    background-image: url("./images/background.jpg");
+    background-size: 42vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    padding-top: 40px;
+    justify-content: end;
+}
+
+.logo-content {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    width: 6vw;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-family: odin font;
+    font-size: 10vh;
+    color: white;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.heroText {
+    display: flex;
+    justify-content: center;
+    font-family: Dancing Script;
+    font-size: 128px;
+    color: #ffcc00;
+}
+
+.subText {
+    display: flex;
+    font-size: 24px;
+    font-family: Helvetica;
+    color: #b3b3b2;
+    justify-content: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    height: calc(35vh - 20px);
+    background-color: #372d51;
+    box-shadow: 5px;
+}
+
+p {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.formcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    width: 40vw;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+
+label {
+    font-family: Helvetica;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #727272;
+}
+
+input {
+    background-color: #302747;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #251c3c;
+    height: 20px;
+    color: white;
+}
+input:focus {
+    border-color: #ffcc00;
+    border: 2px solid;
+}
+
+input:invalid {
+    border-color: #6d0909;
+    border: 2px solid;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #372d51;
+    border-radius: 4px;
+    border:  1px solid;
+    border-color: #372d51;
+}
+
+button:hover {
+    border-color: #ffcc00;
+    background-color: #8f7303;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.login {
+    padding-top: 20px;
+    color: white;
+}
+
+a {
+    color: skyblue;
+}
+
+.cat-gif {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/cat-yarn.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 20vh;
+    width: auto;
+}
